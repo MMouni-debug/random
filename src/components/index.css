@@ -1,0 +1,49 @@
+.rand-num-generator-bg-container {
+    background-image: url('http://wallpapercave.com/wp/QJ0trsu.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    height: 100vh;
+  }
+  
+  .rand-num-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    border-radius: 0.6rem;
+    background-color: #eee8e8;
+    text-align: center;
+    padding: 2.5rem;
+    max-width: 21rem;
+  }
+  
+  .rand-num-content-header {
+    font-size: 1.7rem;
+    color: #0b69ff;
+  }
+  
+  .rand-num-content-description {
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+  .rand-num-generate-button {
+    background-color: #0b69ff;
+    color: #e4ebf3;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+  }
+  
+  .rand-num-text {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #0b69ff;
+  }
